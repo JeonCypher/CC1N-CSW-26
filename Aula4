@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeoncp2</title>
+    <link rel="shortcut icon" href="./imagens/emojiquente.png" type="image/x-icon">
+</head>
+<body>
+<h1>nois da o cu porra</h1>
+<hr>        
+<h2>Negrito vs Destaque:</h2>
+<p>esse texto esta em <b>negrito</b></p>
+<p>texto em <strong>destaque</strong></p> 
+<br>
+<h2>Itálico vs Ênfase:</h2>
+<p>esse texto está em <em>Ênfase</em></p>
+<p>esse texto está em <i> Itálico</i></p>
+<br>
+<h2>Texto marcado</h2>
+<p> Esse texto está <mark style="background-color: hotpink;">marcadilson</mark></p>
+<br>
+<h2>grande e pequeno</h2>
+<p>aqui tem um texto <big>grande</big> e um texto <small>pequeno</small></p>
+<h2>Deletado</h2>
+<p>texto foi <del>deletado</del></p>
+<p>texto foi <strike>deletado</strike></p>
+<br>
+<h2>inserido vs sublinhado</h2>
+<p>texto está <ins>inserido</ins></p>
+<p>texto esta <u>sublinhadinho</u></p>
+<br>
+<h2>texto sobrescrito</h2>
+<p>formula da eq do segundo grau é: ax<sup>2</sup> + bx + c</p>
+<br>
+<h2>Trecho de código fonte</h2>
+<p>Nesse exemplo vou demonstrar um trecho de código</p> 
+<p>inserindo o comando <code>document.getElementById('edtCodigo')</code> que é um comando de JavaScript</p>
+<p>Inserindo um longo código de phyton:
+<pre>
+    <code>
+     # Coeficientes da equação
+    a = float(input("Digite o valor de a: "))
+    b = float(input("Digite o valor de b: "))
+    c = float(input("Digite o valor de c: "))
+
+    # Calculando o discriminante (delta)
+    delta = b**2 - 4*a*c
+
+    if delta < 0:
+        print("A equação não possui raízes reais.")
+    elif delta == 0:
+        x = -b / (2*a)
+        print("A equação possui uma raiz real:")
+        print("x =", x)
+    else:
+        x1 = (-b + math.sqrt(delta)) / (2*a)
+        x2 = (-b - math.sqrt(delta)) / (2*a)
+        print("A equação possui duas raízes reais:")
+        print("x1 =", x1)
+        print("x2 =", x2)
+    </code>
+</pre>
+
+<h2>Endereço</h2>
+Nesse trecho vou tratar como colocar endereços, por exemplo, <address>Rua Desembargador Augusto Botelho</address>
+
+<h2>Citações</h2>
+<p>citação de O Pequeno Principe: <q>Tu te tornas eternamente responsável por aquilo que cativas.</q></p>
+
+
+<h2>Citação2:</h2>
+<p> Uma citação do site TodaMatéria:
+    <blockquote cite="https://www.todamateria.com.br/distribuicao-eletronica/">
+            A distribuição eletrônica ou configuração eletrônica a forma como os elementos químicos são ordenados considerando o número de elétrons que eles possuem e a sua proximidade do núcleo atômico.
+        Distribuição eletrônica em camadas
+        Após terem surgido vários modelos atômicos, o modelo de Bohr sugeriu a organização da eletrosfera em órbitas.
+        Os elétrons se organizam e distribuem-se pelas camadas eletrônicas, estando uns mais próximos do núcleo e outros mais distantes.
+    </blockquote>
+ </p>
+
+<h2>Abreviações</h2>
+    <p>estamos trabalhando com <abbr title="HyperText Markup Language">HTML</abbr> 
+    <p> <abbr title="Cascading Style Sheets">CSS</abbr> </p> 
+<h2>Texto Invertido</h2>
+    <p><bdo dir="ltr">oioi</bdo></p>
+    <p><bdo dir="rtl">jeremias</bdo></p>
+</body>
+</html>
