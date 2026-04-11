@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+<meta charset="UTF-8">
+<title>Contato</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body> 
+<header> 
+<nav>
+<a href="index.html">Home</a>
+<a href="curriculo.html">Currículo</a>
+<a href="servicos.html">Serviços</a>
+<a href="contato.html">Contato</a>
+</nav>
+</header>
+
+<section>
+<h2>Contato</h2>
+<form action="mailto:joaopedrowernercuel@gmail.com" method="post" enctype="text/plain">
+<input type="text" name="nome" placeholder="Nome completo" required>
+<input type="tel" name="telefone" placeholder="Telefone" required>
+<input type="email" name="email" placeholder="Email" required>
+
+<label>Tipo:</label>
+<select name="tipo">
+<option>Pessoa Física</option>
+<option>Pessoa Jurídica</option>
+</select>
+
+<label>Melhor horário:</label>
+<select name="horario">
+<option>Manhã</option>
+<option>Tarde</option>
+<option>Noite</option>
+</select>
+
+<p><strong>Serviço desejado:</strong></p>
+
+<div class="servicos">
+  <label>
+    <input type="radio" name="servico" value="simples">
+    Simples
+  </label>
+
+  <label>
+    <input type="radio" name="servico" value="dinamico">
+    Dinâmico
+  </label>
+
+  <label>
+    <input type="radio" name="servico" value="avancado">
+    Avançado
+  </label>
+</div>
+<textarea name="descricao" placeholder="Descreva o que deseja"></textarea>
+
+<button type="submit">Enviar</button>
+</form>
+
+<h3>Escreva sugestões! :D</h3>
+<form action="mailto:joaopedrowernercuel@gmail.com" method="post" enctype="text/plain">
+<textarea name="sugestao" placeholder="Digite sua sugestão aqui"></textarea>
+<button type="submit">Enviar Sugestão</button>
+</form>
+
+</section>
+
+</body>
+</html>
